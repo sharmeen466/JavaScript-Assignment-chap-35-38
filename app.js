@@ -74,7 +74,20 @@
 
 
 //  Q   #   06
+// document.write("<h1> Factorial Numbers: </h1> ")
+//    document.write("<h3> you give me a single number & i will convert into factors :) </h3>")
+//    document.write("<h3> Let's Go !! </h3>")
 
+// function factorial (number){
+// let result = 1
+// for (i = number; i > 1; i--){
+//    result *= i
+   
+//     document.write(result + "<br />")
+// }
+// }
+// let number = Number(prompt("Enter a numbers for factorial"))
+// factorial(number)
 
 //  Q   #   07
 
@@ -93,22 +106,30 @@
 
 
 // function hypoteneous() {
-//     document.write("Hypoteneous = Base <sup> 2 </sup> + Perpendicular <sup>2 </sup> <br />")
+
+
+// document.write("<h1> Ajao MATH Loverssss 😍 </h1>")
+
+//     document.write("<h2> Let's Calculate HYPOTENEOUS (Geometry)</h2>")
+//     document.write("<h3> Formula: </h3>")
+
+//     document.write("<strong> Hypoteneous = Base <sup> 2 </sup> + Perpendicular <sup>2 </sup> </strong> <br /> <br />")
 
 //     function square(base, perpendicular) {
 //         let baseResult = base * base
 //         let perpendicularResult = perpendicular * perpendicular
 
 //         document.write("Hypoteneous = " +"("+ base, ")<sup> 2 </sup>" , " + ","("+ perpendicular +")<sup> 2 </sup> <br />")
-//         document.write("Hypoteneous = " + baseResult, " + ", perpendicularResult + "<br />")
-//         document.write("Hypoteneous = " + baseResult + perpendicularResult)
+//         document.write("Hypoteneous = " + baseResult, " + ", perpendicularResult + "<br /> <br />")
+//         document.write("The Answer is: <br />")
+//         document.write("Hypoteneous = "+ "<strong>" + baseResult + perpendicularResult + "</strong>")
 
 //     }
 
 //     let base = +prompt("Enter a number of base")
 //     let perpendicular = +prompt("Enter a number of perpendicular")
 //     square(base, perpendicular)
-// }
+
 
 // hypoteneous()
 
@@ -129,15 +150,17 @@
 //  Q   #   10
 
 
+// document.write("<h2> Let's play a Polindrome Game 😎 </h2>")
+
 // function palindrome(str) {
 //     let split = str.split("")
 //     split = split.reverse().join("")
 
 //     if (str == split) {
-//         document.write(split + " is palindrome word")
+//         document.write("<strong> You win 😍 </strong> <br />"+ split.toUpperCase() + " is palindrome word")
 //     }
 //     else {
-//         document.write(split + " is not palindrome word <br /> Write something palindrome word <br /> e.g. civic")
+//         document.write("<strong> You loss 😞 </strong> <br /> "+str.toUpperCase()+ " is not palindrome word <br /> Try again!! & Write something palindrome word <br /> e.g. civic")
 //     }
 // }
 
